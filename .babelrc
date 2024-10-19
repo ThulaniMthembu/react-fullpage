@@ -1,19 +1,11 @@
 {
   "presets": [
-    "@babel/env", 
-    ["airbnb", {
-      "modules": false
-    }],
-    "@babel/react"
+    "@babel/preset-env",
+    "@babel/preset-react",
+    "@babel/preset-typescript"
   ],
   "plugins": [
-    [
-      "@babel/plugin-proposal-decorators",
-      {
-        "legacy": true
-      }
-    ],
-    "@babel/plugin-external-helpers",
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
     "@babel/plugin-proposal-class-properties"
   ]
 }

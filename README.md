@@ -15,9 +15,9 @@ You shouldn't use this for production unless you really know what you're doing. 
 - Nested Component (simple to use)
 - Hide safari's header on Scroll on iphone and ipad
 - Hide Google Chrome's header on Scroll on iOS and Android
-- Drived by the scroll
+- Driven by the scroll
 - CSS animation
-- GPU/CPU swtich
+- GPU/CPU switch
 - Very Small ( ~ 25kB )
 - MIT License (no fullpage.js dependency)
 
@@ -31,9 +31,10 @@ You shouldn't use this for production unless you really know what you're doing. 
 ```bash
 npm install --save @ap.cx/react-fullpage
 ```
+
 ## Usage
 
-```jsx
+````jsx
 
 import React, { Component } from 'react'
 import Fullpage, { FullPageSections, FullpageSection } from '@ap.cx/react-fullpage'
@@ -66,10 +67,10 @@ export default class App extends Component {
   }
 }
 
-Migation from previous version.
+Migration from previous version.
 Add the ``` <FullPageSections> ... </FullPageSections>```
 
-```
+````
 
 ### For IE
 
@@ -84,18 +85,15 @@ import "babel-polyfill";
 
 ```
 
-
 ## Mobile First
 
 ![Android Phone](https://raw.githubusercontent.com/thierryc/react-fullpage/master/static/images/android-phone.jpg)
-
 
 ## Dev
 
 open 2 terminal
 
 In the first terminals windows.
-
 
 ```
 
@@ -104,7 +102,6 @@ In the first terminals windows.
 > npm start
 
 ```
-
 
 In the second terminal
 
@@ -116,7 +113,6 @@ In the second terminal
 > npm start
 
 ```
-
 
 ## Thanks
 
